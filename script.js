@@ -11,7 +11,7 @@ class Second extends First {
     constructor() {
         super();  
     }
-    test() {
+    hello() {
         super.hello();
         console.log("А я следующий метод");
     }
@@ -19,4 +19,4 @@ class Second extends First {
 
 const example = new Second();
 
-example.test();
+example.hello();
